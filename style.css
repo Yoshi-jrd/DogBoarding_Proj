@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form > input,
+form > label {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+input {
+  margin-bottom: 20px;
+  border-radius: 75px;
+  padding: 5px;
+  font-style: oblique;
+  font-weight: 500;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+}
+
+form {
+  text-align: center;
+  width: 300px;
+  margin: auto;
+  font-weight: 500;
+}
+
+.checkbox-section {
+  text-align: center;
+}
+
+form button {
+  display: block;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 30px;
+}
+
+.remove-button {
+  margin-left: 10px;
+}
+
+.header {
+  height: 40vh;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://images.unsplash.com/photo-1529472119196-cb724127a98e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1221&q=80');
+  /* https://unsplash.com/photos/U6nlG0Y5sfs , @hannah15198 */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 65%;
+  position: fixed;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 3rem;
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.5), 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  width: 80%;
+  min-width: 430px;
+  margin: 0 auto;
+  padding-top: 40vh;
+  padding-bottom: 5rem;
+  background-color: rgb(249, 249, 249);
+  
+}
+
+button {
+  border-radius: 8px 75px 75px 90px;
+  padding: 0.5rem;
+  background-color: white;
+  border: 3px solid black;
+  margin: 1rem;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: rgba(255, 105, 185, 0.6);
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 5%;
+  background-color: rgba(255, 105, 180);
+}
+
+@media screen and (min-width: 1000px) {
+  .content {
+    background-color: lime;
+  }
+}
